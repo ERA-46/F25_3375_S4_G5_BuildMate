@@ -10,11 +10,15 @@ Project Description
 BuildMate is a UX prototype project focused on designing an interactive PC assembly and upgrade experience. The project aims to simplify PC building for users through intuitive design and engaging user interaction.
 
 Team Members
-Name	Student ID	Email
-Eranda Hettiarachchillage	300379041	hettiarachchile@student.douglascollege.ca
-Roun Kitahara	300372331	kitaharar@student.douglascollege.ca
+Name:	Eranda Hettiarachchillage
+Student ID:	300379041
+Email:  hettiarachchile@student.douglascollege.ca
 
-
+Name:	Roun Kitahara
+Student ID:	300372331
+Email:  kitaharar@student.douglascollege.ca
+		
+		
 Repository Overview
 
 This repository includes:
