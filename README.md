@@ -14,7 +14,7 @@ Name:	Eranda Hettiarachchillage
 Student ID:	300379041
 Email:  hettiarachchile@student.douglascollege.ca
 
-Name:	Roun Kitahara
+Name:	Ruon Kitahara
 Student ID:	300372331
 Email:  kitaharar@student.douglascollege.ca
 		
