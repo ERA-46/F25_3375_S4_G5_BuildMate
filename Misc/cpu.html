@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  .spec-table-container {
+    width: 400px;
+    font-family: Arial, sans-serif;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    table-layout: fixed; /* prevents overflow */
+  }
+
+  .spec-table th {
+    background: #3e92cc;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .spec-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+
+    /* Prevent overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Left column slightly wider */
+  .spec-name {
+    width: 48%;
+    font-weight: 600;
+    color: #3e92cc;
+  }
+
+  /* Tooltip for long text */
+  .spec-table td[title] {
+    cursor: help;
+  }
+</style>
+
+<div class="spec-table-container">
+  <table class="spec-table">
+    <!-- CPU Section -->
+    <tr><th colspan="2">CPU Specifications</th></tr>
+    <tr><td class="spec-name" title="Total Cores">Total Cores</td><td title="14">14</td></tr>
+    <tr><td class="spec-name">Performance-cores</td><td>6</td></tr>
+    <tr><td class="spec-name">Efficient-cores</td><td>8</td></tr>
+    <tr><td class="spec-name">Total Threads</td><td>14</td></tr>
+    <tr><td class="spec-name">Max Turbo Frequency</td><td>5 GHz</td></tr>
+    <tr><td class="spec-name">P-core Max Turbo</td><td>5 GHz</td></tr>
+    <tr><td class="spec-name">E-core Max Turbo</td><td>4.4 GHz</td></tr>
+    <tr><td class="spec-name">P-core Base Frequency</td><td>3.4 GHz</td></tr>
+    <tr><td class="spec-name">E-core Base Frequency</td><td>2.9 GHz</td></tr>
+    <tr><td class="spec-name">Intel Smart Cache</td><td>24 MB</td></tr>
+    <tr><td class="spec-name">Total L2 Cache</td><td>26 MB</td></tr>
+    <tr><td class="spec-name">Processor Base Power</td><td>65 W</td></tr>
+    <tr><td class="spec-name">Maximum Turbo Power</td><td>121 W</td></tr>
+    <tr><td class="spec-name">Intel DL Boost (CPU)</td><td>Yes</td></tr>
+    <tr><td class="spec-name">CPU Lithography</td><td>TSMC N3B</td></tr>
+    <tr><td class="spec-name">Launch Date</td><td>Q1'25</td></tr>
+    <tr><td class="spec-name">Use Conditions</td><td>PC/Client/Tablet, Workstation</td></tr>
+
+    <!-- Memory Section -->
+    <tr><th colspan="2">Memory Specifications</th></tr>
+    <tr><td class="spec-name">Max Memory Size</td><td>256 GB</td></tr>
+    <tr><td class="spec-name">Memory Types</td><td>Up to DDR5 6400 MT/s</td></tr>
+    <tr><td class="spec-name">Memory Channels</td><td>2</td></tr>
+    <tr><td class="spec-name">ECC Memory Supported</td><td>Yes</td></tr>
+
+    <!-- GPU Section -->
+    <tr><th colspan="2">GPU Specifications</th></tr>
+    <tr><td class="spec-name">GPU Name</td><td>Intel® Graphics</td></tr>
+    <tr><td class="spec-name">Graphics Base Frequency</td><td>300 MHz</td></tr>
+    <tr><td class="spec-name">Max Dynamic Frequency</td><td>2 GHz</td></tr>
+    <tr><td class="spec-name">GPU Peak TOPS (Int8)</td><td>6</td></tr>
+    <tr><td class="spec-name">Xe-cores</td><td>3</td></tr>
+    <tr><td class="spec-name">Max HDMI Resolution</td><td>8K @ 60Hz</td></tr>
+    <tr><td class="spec-name">Max DisplayPort Resolution</td><td>8K @ 60Hz</td></tr>
+    <tr><td class="spec-name">Max eDP Resolution</td><td>4K @ 60Hz</td></tr>
+    <tr><td class="spec-name">DirectX Support</td><td>12</td></tr>
+    <tr><td class="spec-name">OpenGL Support</td><td>4.5</td></tr>
+    <tr><td class="spec-name">OpenCL Support</td><td>3</td></tr>
+    <tr><td class="spec-name">Intel Quick Sync Video</td><td>Yes</td></tr>
+    <tr><td class="spec-name"># of Displays Supported</td><td>4</td></tr>
+    <tr><td class="spec-name">Intel DL Boost (GPU)</td><td>Yes</td></tr>
+
+    <!-- NPU Section -->
+    <tr><th colspan="2">NPU Specifications</th></tr>
+    <tr><td class="spec-name">NPU Name</td><td>Intel® AI Boost</td></tr>
+    <tr><td class="spec-name">Peak TOPS (Int8)</td><td>13</td></tr>
+    <tr><td class="spec-name">Sparsity Support</td><td>Yes</td></tr>
+    <tr><td class="spec-name">Windows Studio Effects</td><td>Yes</td></tr>
+
+    <!-- Expansion Section -->
+    <tr><th colspan="2">Expansion & Connectivity</th></tr>
+    <tr><td class="spec-name">DMI Revision</td><td>4</td></tr>
+    <tr><td class="spec-name">Max DMI Lanes</td><td>8</td></tr>
+    <tr><td class="spec-name">Thunderbolt 4</td><td>Yes</td></tr>
+    <tr><td class="spec-name">PCIe Revision</td><td>5.0 & 4.0</td></tr>
+    <tr><td class="spec-name">Max PCIe Lanes</td><td>24</td></tr>
+
+    <!-- Package Section -->
+    <tr><th colspan="2">Package Specifications</th></tr>
+    <tr><td class="spec-name">Socket Supported</td><td>FCLGA1851</td></tr>
+    <tr><td class="spec-name">Thermal Solution</td><td>PCG 2022C</td></tr>
+    <tr><td class="spec-name">Max Operating Temperature</td><td>105°C</td></tr>
+  </table>
+</div>
+
+
+</body>
+</html>
