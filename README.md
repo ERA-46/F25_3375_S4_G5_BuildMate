@@ -31,9 +31,9 @@ If the link above does not work, you can use the backup file included in this re
 1.  **Start:** The prototype starts at the **Home Screen**.
 2.  **Navigation:** Use the bottom navigation bar to switch between Home, My Builds, Community, and Benchmarks.
 3.  **Key Flows to Try:**
-    * Tap **"Need Help Choosing?"** to test the Part Picker Wizard flow.
-    * Tap **"Wanna Build?"** to view the Simulation Mode.
     * Tap **"My Build 1"** to view specs and benchmark data.
+    * Tap **"Wanna Build?"** to view the Simulation Mode.
+    * Tap **"Need Help Choosing?"** to test the Part Picker Wizard flow.
 
 ## Team Members
 | Name | Student ID | Email |
