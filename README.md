@@ -19,7 +19,7 @@ This project is a high-fidelity prototype designed in Figma. No code compilation
 ### Option 1: View Online (Recommended)
 You can access the interactive prototype directly in your browser using the following link:
 
-**[🔗 Click Here to Launch BuildMate Prototype](https://www.figma.com/proto/MEDKa68gzZOSTpqb9wFfEl/F25_3375_S4_G5_BuildMate?node-id=122-770&t=cABgwtO9N6fjesjB-1)**
+**[🔗 Click Here to Launch BuildMate Prototype](https://www.figma.com/proto/MEDKa68gzZOSTpqb9wFfEl/F25_3375_S4_G5_BuildMate?node-id=7-6&t=cABgwtO9N6fjesjB-1)**
 
 ### Option 2: Use Repository Files (Backup)
 If the link above does not work, you can use the backup file included in this repository:
