@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  .spec-table-container {
+    width: 400px;
+    font-family: Arial, sans-serif;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    table-layout: fixed; /* prevents overflow */
+  }
+
+  .spec-table th {
+    background: #3e92cc;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .spec-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+
+    /* Prevent overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Left column slightly wider */
+  .spec-name {
+    width: 48%;
+    font-weight: 600;
+    color: #3e92cc;
+  }
+
+  /* Tooltip for long text */
+  .spec-table td[title] {
+    cursor: help;
+  }
+</style>
+
+<div class="spec-table-container">
+  <table class="spec-table">
+    <tr><th colspan="2">Motherboard – ASUS ROG STRIX Z790-F GAMING WIFI II</th></tr>
+
+    <!-- CPU -->
+    <tr><th colspan="2">CPU Support</th></tr>
+    <tr><td class="spec-name">Socket</td><td>LGA1700</td></tr>
+    <tr><td class="spec-name">Supported CPUs</td><td>Intel 14th / 13th / 12th Gen, Pentium Gold, Celeron</td></tr>
+    <tr><td class="spec-name">Turbo Boost</td><td>Supports TB 2.0 & TBM 3.0</td></tr>
+
+    <!-- Chipset -->
+    <tr><th colspan="2">Chipset</th></tr>
+    <tr><td class="spec-name">Chipset</td><td>Intel Z790</td></tr>
+
+    <!-- Memory -->
+    <tr><th colspan="2">Memory</th></tr>
+    <tr><td class="spec-name">DIMM Slots</td><td>4</td></tr>
+    <tr><td class="spec-name">Max Capacity</td><td>192GB</td></tr>
+    <tr><td class="spec-name">Memory Type</td><td>DDR5</td></tr>
+    <tr><td class="spec-name">Speeds Supported</td><td>Up to DDR5-8000+ (OC)</td></tr>
+    <tr><td class="spec-name">Features</td><td>XMP, OptiMem II, AEMP II, DIMM Flex</td></tr>
+
+    <!-- Graphics -->
+    <tr><th colspan="2">Graphics (CPU Dependent)</th></tr>
+    <tr><td class="spec-name">DisplayPort</td><td>1 × DP 1.4 (8K@60Hz)</td></tr>
+    <tr><td class="spec-name">HDMI</td><td>1 × HDMI 2.1 (4K@60Hz)</td></tr>
+
+    <!-- Expansion Slots -->
+    <tr><th colspan="2">Expansion Slots</th></tr>
+    <tr><td class="spec-name">PCIe 5.0</td><td>1 × x16 (CPU)</td></tr>
+    <tr><td class="spec-name">PCIe 4.0</td><td>1 × x16 (x4 mode)</td></tr>
+    <tr><td class="spec-name">PCIe 3.0</td><td>1 × x1</td></tr>
+
+    <!-- Storage -->
+    <tr><th colspan="2">Storage</th></tr>
+    <tr><td class="spec-name">M.2 Slots</td><td>5 × M.2 (PCIe 4.0, 2242-22110)</td></tr>
+    <tr><td class="spec-name">SATA</td><td>4 × SATA 6Gb/s</td></tr>
+    <tr><td class="spec-name">RAID</td><td>PCIe/SATA RAID 0/1/5/10</td></tr>
+
+    <!-- Networking -->
+    <tr><th colspan="2">Networking</th></tr>
+    <tr><td class="spec-name">Ethernet</td><td>Intel 2.5Gb LAN + LANGuard</td></tr>
+    <tr><td class="spec-name">Wireless</td><td>Wi-Fi 7 (2×2, 2.4/5/6GHz)</td></tr>
+    <tr><td class="spec-name">Bluetooth</td><td>Bluetooth 5.4</td></tr>
+
+    <!-- USB -->
+    <tr><th colspan="2">USB</th></tr>
+    <tr><td class="spec-name">Rear USB</td><td>14 ports (USB-C 20Gbps, USB-C 10Gbps, 10Gbps Type-A, 5Gbps, USB 2.0)</td></tr>
+    <tr><td class="spec-name">Front USB</td><td>USB-C 20Gbps (30W PD), USB 5Gbps, USB 2.0 headers</td></tr>
+
+    <!-- Audio -->
+    <tr><th colspan="2">Audio</th></tr>
+    <tr><td class="spec-name">Codec</td><td>ROG SupremeFX ALC4080</td></tr>
+    <tr><td class="spec-name">Features</td><td>5.1 Surround, S/PDIF, 32-bit/384kHz, AMP, Shielding</td></tr>
+  </table>
+</div>
+
+
+
+</body>
+</html>

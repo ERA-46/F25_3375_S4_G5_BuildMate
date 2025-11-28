@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  .spec-table-container {
+    width: 400px;
+    font-family: Arial, sans-serif;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    table-layout: fixed; /* prevents overflow */
+  }
+
+  .spec-table th {
+    background: #3e92cc;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .spec-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+
+    /* Prevent overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Left column slightly wider */
+  .spec-name {
+    width: 48%;
+    font-weight: 600;
+    color: #3e92cc;
+  }
+
+  /* Tooltip for long text */
+  .spec-table td[title] {
+    cursor: help;
+  }
+</style>
+
+<div class="spec-table-container">
+  <table class="spec-table">
+
+    <tr><th colspan="2">GPU Specifications</th></tr>
+
+    <tr><td class="spec-name">Model</td><td title="PRIME-RTX5060TI-O8G">PRIME-RTX5060TI-O8G</td></tr>
+    <tr><td class="spec-name">Graphics Engine</td><td>NVIDIA GeForce RTX 5060 Ti</td></tr>
+    <tr><td class="spec-name">AI Performance</td><td>772 TOPs</td></tr>
+    <tr><td class="spec-name">Bus Standard</td><td>PCIe 5.0</td></tr>
+    <tr><td class="spec-name">OpenGL</td><td>4.6</td></tr>
+
+    <tr><td class="spec-name">Video Memory</td><td>8GB GDDR7</td></tr>
+    <tr><td class="spec-name">Boost Clock (OC)</td><td>2647 MHz</td></tr>
+    <tr><td class="spec-name">Boost Clock (Default)</td><td>2617 MHz</td></tr>
+    <tr><td class="spec-name">CUDA Cores</td><td>4608</td></tr>
+    <tr><td class="spec-name">Memory Speed</td><td>28 Gbps</td></tr>
+    <tr><td class="spec-name">Memory Interface</td><td>128-bit</td></tr>
+
+    <tr><td class="spec-name">Max Resolution</td><td>7680 × 4320</td></tr>
+
+    <tr><td class="spec-name">Ports</td>
+        <td title="1× HDMI 2.1b, 3× DP 2.1b">1× HDMI, 3× DP</td>
+    </tr>
+
+    <tr><td class="spec-name">HDCP</td><td>Yes (2.3)</td></tr>
+    <tr><td class="spec-name">Max Displays</td><td>4</td></tr>
+    <tr><td class="spec-name">NVLink</td><td>No</td></tr>
+
+    <tr><th colspan="2">Accessories</th></tr>
+    <tr><td class="spec-name">Included</td>
+        <td title="Manual, Velcro Hook & Loop, Thank You Card">Manual & Extras</td>
+    </tr>
+
+    <tr><th colspan="2">Physical</th></tr>
+    <tr><td class="spec-name">Dimensions</td><td>304 × 120 × 50 mm</td></tr>
+    <tr><td class="spec-name">Slot</td><td>2.5 Slot</td></tr>
+
+    <tr><th colspan="2">Power</th></tr>
+    <tr><td class="spec-name">Recommended PSU</td><td>550W</td></tr>
+    <tr><td class="spec-name">Power Connector</td><td>1 × 8-pin</td></tr>
+
+  </table>
+</div>
+
+
+
+
+</body>
+</html>

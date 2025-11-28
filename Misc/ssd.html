@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+  .spec-table-container {
+    width: 400px;
+    font-family: Arial, sans-serif;
+  }
+
+  .spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    table-layout: fixed; /* prevents overflow */
+  }
+
+  .spec-table th {
+    background: #3e92cc;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .spec-table td {
+    padding: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    vertical-align: top;
+
+    /* Prevent overflow */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Left column slightly wider */
+  .spec-name {
+    width: 48%;
+    font-weight: 600;
+    color: #3e92cc;
+  }
+
+  /* Tooltip for long text */
+  .spec-table td[title] {
+    cursor: help;
+  }
+</style>
+
+<div class="spec-table-container">
+  <table class="spec-table">
+
+    <tr><th colspan="2">Samsung 1TB NVMe M.2 SSD</th></tr>
+
+    <tr><td class="spec-name">Interface</td><td title="PCIe 5.0 x4, NVMe 2.0">PCIe 5.0 x4, NVMe 2.0</td></tr>
+    <tr><td class="spec-name">Form Factor</td><td>M.2 2280 / M.2 2280 with Heatsink</td></tr>
+
+    <tr><td class="spec-name">Sequential Read/Write</td><td>14,700 / 13,300 MB/s</td></tr>
+    <tr><td class="spec-name">Random Read/Write</td><td>1,850K / 2,600K IOPS (QD32)</td></tr>
+
+    <tr><td class="spec-name">Power Active</td><td>7.6W / 7.2W</td></tr>
+    <tr><td class="spec-name">Device Sleep</td><td>4.0mW / 3.3mW</td></tr>
+
+    <tr><td class="spec-name">Data Encryption</td><td>AES 256 (Class 0), TCG/Opal v2.0, MS eDrive</td></tr>
+    <tr><td class="spec-name">Total Bytes Written (TBW)</td><td>600</td></tr>
+
+    <tr><td class="spec-name">NAND</td><td>Samsung V-NAND TLC (V8)</td></tr>
+    <tr><td class="spec-name">Controller</td><td>In-House Controller</td></tr>
+    <tr><td class="spec-name">Cache Memory</td><td>1GB LPDDR4X</td></tr>
+
+    <tr><td class="spec-name">Capacity</td><td>1TB</td></tr>
+
+    <tr><td class="spec-name">Dimensions (W×H×D)</td><td>0.9 × 0.09 × 3.2 in.</td></tr>
+    <tr><td class="spec-name">Package Size</td><td>3.9 × 0.9 × 5.6 in.</td></tr>
+    <tr><td class="spec-name">Inner Box Size</td><td>7.2 × 5.4 × 9.4 in.</td></tr>
+
+    <tr><td class="spec-name">Weight</td><td>0.02 lb (Product) / 0.16 lb (Package) / 0.36 lb (Inner Box)</td></tr>
+
+  </table>
+</div>
+
+
+
+
+</body>
+</html>
